@@ -1,6 +1,8 @@
 # Wrestling-Simulator
 
-The simulation will includes 32 different teams, 8 in a single league. The season will have a number of dual meets (team vs team) dates, and 3 open tournaments and 1 league tournament.  The open tournaments will have no more than 2 league teams in them. The dual meet season will consist of 16 meets but during those matches, every league team MUST compete against every other league team. 
+This simulator intends to replicate a conventional highschool/NCAA Wrestling tournament.
+
+The simulation will includes 32 different teams, 8 in a single league. The season has a number of dual meets (team vs team) dates, 3 open tournaments and 1 league tournament.  The open tournaments will have no more than 2 league teams in them. The dual meet season will consist of 16 meets but during those matches, every league team MUST compete against every other league team. 
 
 Wrestlers have a id number, teams have an id number as well (100, 200 through 3200) Wrestlers in team 100 would be 101, 102..etc…  The total number of wrestlers will vary per team. Wrestlers also have a ability score mean = 100, std. div = 15. Each will also have a Boolean value “injured” by default will be set to false.  Each wrestler’s weight will be determined randomly with a mean of 152 and a standard deviation of 27. Wrestlers also have a win loss record. Not only the total wins and losses but the ID numbers of those they have lost to.
 A wrestler’s weight determines their lowest weight class they can wrestle up by 1 weight class + 1 pound from their current weight.. 
